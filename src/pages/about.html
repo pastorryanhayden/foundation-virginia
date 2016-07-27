@@ -1,11 +1,11 @@
-<div class="about-page">
+<div class="about-page" id="about-page">
     <div class="header">
     <h2 class="about-header"> About Us: <span>Our Pastor</span></h2>
-
     <img src="http://placehold.it/1920x1080" alt="" class="featured_image">
     </div><!-- /header -->
     <div class="content">
     <div class="main-content">
+        <p>\{{message}}</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, saepe explicabo, veniam maxime, soluta, nam quos laudantium laboriosam quidem amet sunt aspernatur sint eveniet alias a inventore vel praesentium veritatis?</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sed excepturi eveniet nobis, fuga incidunt! Mollitia, quasi iusto nihil. Et quam eaque, repellat officia fuga modi quia. Debitis, fugiat, ratione.</p>
     </div><!--/main-content-->
@@ -22,3 +22,12 @@
     </div><!--/sidebar-->
     </div><!-- content -->
 </div><!--/wrapper-->
+
+<script>
+    new Vue({
+  el: '#about-page',
+  data: {
+    message: 'Hello Vue.js!'
+  }
+})
+</script>

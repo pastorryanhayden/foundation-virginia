@@ -557,9 +557,3 @@ $(document).foundation();
 	$(document).ready(function(){ Featherlight._onReady(); });
 }(jQuery));
 
-new Vue({
-  el: '#app',
-  data: {
-    message: 'Hartwell Baptist Church loves the people of Cincinnatti because Jesus loves the people of Cincinatti.  Ours is a dynamic church where the Bible is changing lives.' 
-}
-})
